@@ -1,0 +1,21 @@
+{
+  "format": "FretNote-score",
+  "version": 2,
+  "title": "박자 배치 예시: C–G–Am–F",
+  "artist": "FretNote · 마디와 빈 박자 예제",
+  "bpm": 88,
+  "meter": 4,
+  "capo": 0,
+  "view": "diagram",
+  "minBars": 4,
+  "events": [
+    {"id":"demo-c","chord":"C","start":0,"beats":2,"note":"첫 2박","voicing":"open"},
+    {"id":"demo-g","chord":"G","start":2,"beats":2,"note":"나머지 2박","voicing":"open"},
+    {"id":"demo-am","chord":"Am","start":4,"beats":1,"note":"1박","voicing":"open"},
+    {"id":"demo-f","chord":"F","start":6,"beats":2,"note":"2박","voicing":"open"},
+    {"id":"demo-dm","chord":"Dm","start":8,"beats":1,"note":"1박","voicing":"open"},
+    {"id":"demo-g7","chord":"G7","start":9,"beats":1,"note":"1박","voicing":"open"},
+    {"id":"demo-c2","chord":"C","start":11,"beats":1,"note":"4번째 칸","voicing":"open"},
+    {"id":"demo-f2","chord":"F","start":12,"beats":4,"note":"마지막 마디","voicing":"open"}
+  ]
+}
